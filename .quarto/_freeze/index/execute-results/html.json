@@ -2,9 +2,7 @@
   "hash": "1740a10980d3e85542b888a35f10eb0b",
   "result": {
     "markdown": "---\ntitle: \"GIS Project\"\n---\n\n\nWelcome to our GIS project\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
-    "supporting": [
-      "index_files"
-    ],
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

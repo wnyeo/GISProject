@@ -2,8 +2,10 @@
 title: "About"
 ---
 
-About this site
+About us:
 
-```{r}
-1 + 1
-```
+Team 9:
+
+Tan Xin Yi
+
+Yeo Wei Ni

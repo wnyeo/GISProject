@@ -1,16 +1,44 @@
 [
   {
+    "objectID": "results_discuss.html",
+    "href": "results_discuss.html",
+    "title": "Results & Discussion",
+    "section": "",
+    "text": "insert results and discussions here"
+  },
+  {
+    "objectID": "methodology.html",
+    "href": "methodology.html",
+    "title": "Methodology",
+    "section": "",
+    "text": "a detail documentation of the methods used."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "GIS Project",
     "section": "",
-    "text": "Welcome to our GIS project\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Hello, we are Group 9, welcome to our GIS project website!\ninsert title here\ninsert short description of not more than 350 words summarising the motivation, objectives, methodology and key findings here"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About us:\nTeam 9:\nTan Xin Yi\nYeo Wei Ni"
+  },
+  {
+    "objectID": "lessons.html",
+    "href": "lessons.html",
+    "title": "Lessons Learnt",
+    "section": "",
+    "text": "Insert lessons learnt here"
+  },
+  {
+    "objectID": "proposal.html",
+    "href": "proposal.html",
+    "title": "Project Proposal",
+    "section": "",
+    "text": "Motivation of the project\nProject objective\nData\nScope of work\nProject schedule including a Gantt chart"
   }
 ]
