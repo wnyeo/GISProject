@@ -39,7 +39,7 @@
     "href": "proposal.html",
     "title": "Project Proposal",
     "section": "",
-    "text": "Motivation of the project\nTropical-like cyclones typically occur once a year in the Mediterranean. This year’s (2023) storm, named Storm Daniel, is the deadliest seen. Derna, a city in Libya was significantly affected by the storm as the Storm resulted in the collapse of two dams, resulting in a flood. The flood washed people out to sea and led to the displacement of around 40,000 people (according to estimates by the UN International Organization of Migration). There were also major impacts infrastructure wise; entire neighbourhoods were swept out to sea, roads were destroyed, and over 3,100 buildings were destroyed (as per estimates by United Nations satellite centre indicate that around)\nDue to the difficulty of accessing on the ground data in areas without established on-the-ground sensing infrastructure, satellite data is the main source of data for post-flood management and planning. Satellite data can be used for land use/ land cover change detection which is useful for analysing the impact of the flood on different areas and better planning cities to be more disaster resistant in the future.\n\n\nProject objective\nThe project would investigate changes in land use/ land cover after the flooding of Derna City in Libya on 10 September 2023, due to Storm Daniel and the collapse of the dam. Appropriate methods to conduct land classification will be used to classify land use/ land cover before and after the storm respectively. With the analysis, the extent of damage caused by the flood can be estimated, quantified and delineated for mitigation and prevention of future flooding.\n\n\nData\nFor this project, satellite data for Derna City will be sourced from Opernicus Open Access Hub and OpenAerialMap. Satellite data from 7 September and 12 September 2023 will be used to investigate the changes.\nOther data that will be used also includes:\n\nOSM Libya from Geofabrik\nLibya Floods from Humanitarian Data Exchange portal\n\n\n\nScope of work\nThe project will involve:\n\nperforming supervised classification of the pre-flood satellite data and post-flood satellite data using different algorithms, evaluation of the chosen algorithms' classification, and the selection of an appropriate algorithm for the final analysis.\nLand use/ land cover change analysis - through running an algorithm that detects the land use/land cover change by class\nAnalysis of change - by observing patterns in the land use/land cover change\n\n\n\nProject schedule\n\n\n\nProject timeline"
+    "text": "Tropical-like cyclones typically occur once a year in the Mediterranean. This year’s (2023) storm, named Storm Daniel, is the deadliest seen. Derna, a city in Libya was significantly affected by the storm as the Storm resulted in the collapse of two dams, resulting in a flood. The flood washed people out to sea and led to the displacement of around 40,000 people (according to estimates by the UN International Organization of Migration). There were also major impacts infrastructure wise; entire neighbourhoods were swept out to sea, roads were destroyed, and over 3,100 buildings were destroyed (as per estimates by United Nations satellite centre indicate that around)\nDue to the difficulty of accessing on the ground data in areas without established on-the-ground sensing infrastructure, satellite data is the main source of data for post-flood management and planning. Satellite data can be used for land use/ land cover change detection which is useful for analysing the impact of the flood on different areas and better planning cities to be more disaster resistant in the future."
   },
   {
     "objectID": "methodology.html#section-1-selection-of-classes-for-training-and-testing",
@@ -60,7 +60,7 @@
     "href": "methodology.html#section-3-testing",
     "title": "Methodology",
     "section": "Section 3: Testing",
-    "text": "Section 3: Testing\n3.1: Add testing samples for each land cover type\n3.2: Calculate accuracy for the different algorithms using the same test samples in section 3.2 with SCP plugin"
+    "text": "Section 3: Testing\n3.1: Add testing samples for each land cover type\n3.2: Calculate accuracy for the different algorithms using the same test samples in section 3.1 with SCP plugin"
   },
   {
     "objectID": "methodology.html#section-4-evaluation",
@@ -75,5 +75,12 @@
     "title": "Methodology",
     "section": "Section 5: Analysis",
     "text": "Section 5: Analysis\n5.1: Change detection of classes with SCP Plugin\n5.2: Analyse extent of flood damage\nA detailed step by step guide of the analysis can be found here: link"
+  },
+  {
+    "objectID": "proposal.html#division-of-work",
+    "href": "proposal.html#division-of-work",
+    "title": "Project Proposal",
+    "section": "Division of work",
+    "text": "Division of work\n\n\n\n\n\n\n\nWork\nAssigned to\n\n\n\n\nLand use/ land cover classification\nPre flood: Wei Ni\nPost flood: Xin Yi\n\n\nLand use/ land cover change analysis\nWei Ni & Xin Yi\n\n\nAnalysis of change\nWei Ni & Xin Yi"
   }
 ]
