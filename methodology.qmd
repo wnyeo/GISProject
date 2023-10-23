@@ -2,4 +2,52 @@
 title: "Methodology"
 ---
 
-a detail documentation of the methods used.
+The project will use supervised classification to identify change in land use/ land cover in Derna City pre and post floods. For satellite images for **both pre and post floods satellite data**, the following steps will be used:
+
+## Section 1: Selection of classes for training and testing
+
+1.1: The following classes are chosen for the analysis:
+
+-   Built-up area
+
+-   Bare land
+
+-   Impervious surfaces
+
+-   Water body
+
+-   Vegetation
+
+-   Cloud
+
+-   Cloud shadow
+
+## Section 2: Training
+
+2.1: Select areas and add training samples for each land cover type
+
+2.2: Check ROI signature
+
+2.3: Run SCP Classification on 2 Algorithms: Minimum Distance and Maximum Likelihood
+
+2.4: Run Random forest classification with Dzetsaka 
+
+## Section 3: Testing
+
+3.1: Add testing samples for each land cover type
+
+3.2: Calculate accuracy for the different algorithms using the same test samples in section 3.2 with SCP plugin
+
+## Section 4: Evaluation
+
+4.1: Evaluation of different classification model
+
+4.2: Select the better model for subsequent analysis
+
+## Section 5: Analysis
+
+5.1: Change detection of classes with SCP Plugin
+
+5.2: Analyse extent of flood damage
+
+A detailed step by step guide of the analysis can be found here: link

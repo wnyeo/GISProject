@@ -2,8 +2,12 @@
 title: "GIS Project"
 ---
 
+\<insert project title here\>
+
 Hello, we are Group 9, welcome to our GIS project website!
 
-insert title here
+As part of our project for SMT201: Geographical Information Systems for Urban Planning, our group explored the potential use of GIS and remote sensing technologies in understanding the impact and land use/ land cover change during the 2023 Libya Floods in Derna City.
 
-insert short description of not more than 350 words summarising the motivation, objectives, methodology and key findings here
+Here is a short description of our project:
+
+\<insert short description of not more than 350 words summarising the motivation, objectives, methodology and key findings here\>

@@ -115,7 +115,17 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section-1-selection-of-classes-for-training-and-testing" id="toc-section-1-selection-of-classes-for-training-and-testing" class="nav-link active" data-scroll-target="#section-1-selection-of-classes-for-training-and-testing">Section 1: Selection of classes for training and testing</a></li>
+  <li><a href="#section-2-training" id="toc-section-2-training" class="nav-link" data-scroll-target="#section-2-training">Section 2: Training</a></li>
+  <li><a href="#section-3-testing" id="toc-section-3-testing" class="nav-link" data-scroll-target="#section-3-testing">Section 3: Testing</a></li>
+  <li><a href="#section-4-evaluation" id="toc-section-4-evaluation" class="nav-link" data-scroll-target="#section-4-evaluation">Section 4: Evaluation</a></li>
+  <li><a href="#section-5-analysis" id="toc-section-5-analysis" class="nav-link" data-scroll-target="#section-5-analysis">Section 5: Analysis</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -137,9 +147,45 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>a detail documentation of the methods used.</p>
+<p>The project will use supervised classification to identify change in land use/ land cover in Derna City pre and post floods. For satellite images for <strong>both pre and post floods satellite data</strong>, the following steps will be used:</p>
+<section id="section-1-selection-of-classes-for-training-and-testing" class="level2">
+<h2 class="anchored" data-anchor-id="section-1-selection-of-classes-for-training-and-testing">Section 1: Selection of classes for training and testing</h2>
+<p>1.1: The following classes are chosen for the analysis:</p>
+<ul>
+<li><p>Built-up area</p></li>
+<li><p>Bare land</p></li>
+<li><p>Impervious surfaces</p></li>
+<li><p>Water body</p></li>
+<li><p>Vegetation</p></li>
+<li><p>Cloud</p></li>
+<li><p>Cloud shadow</p></li>
+</ul>
+</section>
+<section id="section-2-training" class="level2">
+<h2 class="anchored" data-anchor-id="section-2-training">Section 2: Training</h2>
+<p>2.1: Select areas and add training samples for each land cover type</p>
+<p>2.2: Check ROI signature</p>
+<p>2.3: Run SCP Classification on 2 Algorithms: Minimum Distance and Maximum Likelihood</p>
+<p>2.4: Run Random forest classification with Dzetsaka&nbsp;</p>
+</section>
+<section id="section-3-testing" class="level2">
+<h2 class="anchored" data-anchor-id="section-3-testing">Section 3: Testing</h2>
+<p>3.1: Add testing samples for each land cover type</p>
+<p>3.2: Calculate accuracy for the different algorithms using the same test samples in section 3.2 with SCP plugin</p>
+</section>
+<section id="section-4-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="section-4-evaluation">Section 4: Evaluation</h2>
+<p>4.1: Evaluation of different classification model</p>
+<p>4.2: Select the better model for subsequent analysis</p>
+</section>
+<section id="section-5-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="section-5-analysis">Section 5: Analysis</h2>
+<p>5.1: Change detection of classes with SCP Plugin</p>
+<p>5.2: Analyse extent of flood damage</p>
+<p>A detailed step by step guide of the analysis can be found here: link</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
