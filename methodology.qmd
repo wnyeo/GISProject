@@ -36,7 +36,7 @@ The project will use supervised classification to identify change in land use/ l
 
 3.1: Add testing samples for each land cover type
 
-3.2: Calculate accuracy for the different algorithms using the same test samples in section 3.2 with SCP plugin
+3.2: Calculate accuracy for the different algorithms using the same test samples in section 3.1 with SCP plugin
 
 ## Section 4: Evaluation
 
