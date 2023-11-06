@@ -13,6 +13,12 @@ website:
         text: Results & Discussion
       - href: lessons.qmd
         text: Lessons Learnt
+      - text: "Webmaps"
+        menu: 
+          - text: "Punggol Pre-school distribution"
+            href: qgis2web/index.html
+          - text: "Punggol 3D visualisation"
+            href: geoweb3D/index.html
     right:
       - href: about.qmd
         text: About
