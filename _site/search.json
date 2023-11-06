@@ -25,7 +25,7 @@
     "href": "methodology.html#section-2-training",
     "title": "Methodology",
     "section": "Section 2: Training",
-    "text": "Section 2: Training\n2.1: Select areas and add training samples for each land cover type\n2.2: Check ROI signature\n2.3: Run SCP Classification on 2 Algorithms: Minimum Distance and Maximum Likelihood\n2.4: Run Random forest classification with Dzetsaka"
+    "text": "Section 2: Training\n2.1: Select areas and add training samples for each land cover type\n2.2: Check ROI signature\n2.3: Run SCP Classification on 2 Algorithms: Minimum Distance and Maximum Likelihood"
   },
   {
     "objectID": "methodology.html#section-3-testing",
