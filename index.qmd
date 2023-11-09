@@ -1,8 +1,6 @@
 ---
-title: "GIS Project"
+title: "Land Cover Change Analysis in Libya 2023"
 ---
-
-\<insert project title here\>
 
 Hello, we are Group 9, welcome to our GIS project website!
 
@@ -11,3 +9,5 @@ As part of our project for SMT201: Geographical Information Systems for Urban Pl
 Here is a short description of our project:
 
 \<insert short description of not more than 350 words summarising the motivation, objectives, methodology and key findings here\>
+
+Please explore this website for more details and findings about this project!
