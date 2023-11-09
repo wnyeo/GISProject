@@ -1,0 +1,5 @@
+---
+title: "Poster"
+---
+
+![Project Poster](img/SMT201_G9_Poster.jpg)

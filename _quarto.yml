@@ -9,6 +9,8 @@ website:
         text: Project Proposal
       - href: methodology.qmd
         text: Methodology
+      - href: poster.qmd
+        text: Poster
       - href: results_discuss.qmd
         text: Results & Discussion
       - href: lessons.qmd
