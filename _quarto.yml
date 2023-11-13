@@ -9,25 +9,22 @@ website:
         text: Project Proposal
       - href: methodology.qmd
         text: Methodology
+      - href: minutes.qmd
+        text: Meeting Minutes
       - href: poster.qmd
         text: Poster
       - href: results_discuss.qmd
         text: Results & Discussion
       - href: lessons.qmd
         text: Lessons Learnt
-      - text: "Webmaps"
-        menu: 
-          - text: "Punggol Pre-school distribution"
-            href: qgis2web/index.html
-          - text: "Punggol 3D visualisation"
-            href: geoweb3D/index.html
+      
     right:
       - href: about.qmd
         text: About
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 
