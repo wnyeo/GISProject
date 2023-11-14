@@ -2,10 +2,8 @@
 title: "About"
 ---
 
-About us:
+Hi there! We are Wei Ni and Xin Yi, final year students studying Smart City Management and Technology at SMU School of Computing and Information Systems. Please connect through our LinkedIn below:
 
-Team 9:
+-   [Tan Xin Yi](https://www.linkedin.com/in/tanxinyi530/)
 
-Tan Xin Yi
-
-Yeo Wei Ni
+-   [Yeo Wei Ni](https://www.linkedin.com/in/wei-ni-yeo/)
