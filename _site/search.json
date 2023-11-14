@@ -2,9 +2,9 @@
   {
     "objectID": "results_discuss.html",
     "href": "results_discuss.html",
-    "title": "Results & Discussion",
+    "title": "Results & Discussions",
     "section": "",
-    "text": "insert results and discussions here"
+    "text": "The classification of pre flood land cover is as follows:\n\n\n\nPre-flood land cover classification\n\n\nThe classification of post flood land cover is as follows:\n\n\n\nPost-flood land cover classification\n\n\nAfter the classification of land use pre and post flood, a land cover change analysis is conducted. We focused on land cover change into bare land and water body to observed the extent of damage and flooding done."
   },
   {
     "objectID": "methodology.html",
@@ -53,21 +53,21 @@
     "href": "index.html",
     "title": "Land Cover Change Analysis in Libya 2023",
     "section": "",
-    "text": "Hello, we are Group 9, welcome to our GIS project website!\nAs part of our project for SMT201: Geographical Information Systems for Urban Planning, our group explored the potential use of GIS and remote sensing technologies in understanding the impact and land use/ land cover change during the 2023 Libya Floods in Derna City.\nHere is a short description of our project:\n&lt;insert short description of not more than 350 words summarising the motivation, objectives, methodology and key findings here&gt;\nPlease explore this website for more details and findings about this project!"
+    "text": "Hello, we are Group 9, welcome to our GIS project website!\nAs part of our project for SMT201: Geographical Information Systems for Urban Planning, our group explored the potential use of GIS and remote sensing technologies in understanding the impact and land use/ land cover change during the 2023 Libya Floods in Derna City.\nPlease explore this website for more details and findings about this project!"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About us:\nHi there! We are Wei Ni and Xin Yi, final year students studying Smart City Management and Technology at SMU School of Computing and Information Systems. Please connect through our LinkedIn below:\n\nTan Xin Yi\nYeo Wei Ni"
+    "text": "Hi there! We are Wei Ni and Xin Yi, final year students studying Smart City Management and Technology at SMU School of Computing and Information Systems. Please connect through our LinkedIn below:\n\nTan Xin Yi\nYeo Wei Ni"
   },
   {
     "objectID": "lessons.html",
     "href": "lessons.html",
     "title": "Lessons Learnt",
     "section": "",
-    "text": "Insert lessons learnt here"
+    "text": "Throughout this project, our team has learnt the importance of documentation when doing projects. Doing up the documentation for analysis and meeting minutes for this project has allowed us to appreciate the importance of documentation in not just allowing for reproducibility, but also helping with troubleshooting. When we are not sure of details with previous analysis, we are able to make use of the documentation to recall and revisit the details. Documentation has also allowed everyone to be clear about the project, ensuring that the team is on the right track.\nThe second learning point was to conduct a cross check or validation with other sources to ensure that we are on the right track. This includes our clarifications with Prof Kam and also with online sources. For this project, we referenced flood trace and flood area data from Copernicus Emergency Management Service - Mapping to better understand what were the areas of flooding.\nThird, contextual research is cruicial before starting on a project. Contextual research on the topic or area has allowed the team to gain a better understanding of what happened and decide on the methodologies. We are also able to better interpret results with contextual understanding.\nLastly, it is important to know the purpose of a type of analysis before starting on it. This can provide more direction and allow the analysis as well as the recommendations to be more targeted. For example, before starting on our analysis, we clarified the use cases of land cover change analysis with Prof. Kam before starting on it. In this case it was to identify which land cover types were affected the most. This helped us decide on what land cover types could represent flood impact (Bare land and Water Body).\nWe would like to thank Prof Kam for this continued guidance for this project."
   },
   {
     "objectID": "proposal.html",
@@ -152,5 +152,19 @@
     "title": "Meeting Minutes",
     "section": "9 Oct 2023 - Internal Team Meeting",
     "text": "9 Oct 2023 - Internal Team Meeting\nTime: 1530 - 1630 hrs\nIn person meeting / Zoom meeting\nAgenda:\n\nDecide on theme and analysis plan\nList down questions we have for prof\nSet and book consultation with Prof\nTo do by next meeting\nAOM\n\n\n\n\n\n\n\nMinutes\n*Decisions are highlighted\nAction Items\n\n\n\n\nTheme and analysis plan:\nTheme 1\nLooks more interesting but to check with Prof about our analysis plan to see feasibility of plan and if our understanding of the Theme is correct\nAnalysis:\nChoose two dates for comparison\nData compilation\nQuestions\nHow to choose the two dates to compare the land use/land cover? Should we research the optimal dates? Is there a “best practice” method of choosing the two dates for comparison?\nHow can we do the comparison\nLike something similar to NDVI for different kinds of land use.\nOr some classification tool for satellite data\nShould we take into account the different types of flooding and the land use?\nEg: pluvial and fluvial flooding and land use\nTheme 2\nSomewhat like the Childcare Center accessibility analysis\nAnalysis:\nApproach would be like the childcare accessibility for Punggol area\nFinding out distance between residential areas and medical and evacuation areas\nTheme 3\nGIS and remote sensing data → remote sensing data aspect would be the satellite images, QGIS analysis comes in for recovery planning, distance to evacuation centres\nAnalysis:\nPossible dataset: https://data.humdata.org/dataset/buildings-footprint-floods-derna-libya\nQuestion:\nWhat kind of loss (areas impacted more by flood?)\nIs the data on flood impact on buildings relevant to this theme?\nGeneral Questions\nIs there a format for the meeting minutes\nUnder methodology what is required?\nConsultation Datetime: Friday, 9 am\nSome reading and literature review of the application\nInternal Team meetings would be on every Tuesday afternoon\nTo book a consultation slot with Prof. Kam\nSome reading and literature review of the application"
+  },
+  {
+    "objectID": "results_discuss.html#other-land-cover-types-to-bare-land",
+    "href": "results_discuss.html#other-land-cover-types-to-bare-land",
+    "title": "Results & Discussions",
+    "section": "Other land cover types to Bare Land",
+    "text": "Other land cover types to Bare Land\n\n\n\nChange in land cover classification to Bare land\n\n\nObservations: The map above shows that for the land in closer proximity to the dam, there are generally more changes from other land types to bare land. It also appears that there was more damage to Built-up areas to the East of Wadi Derna, indicating that the East part of Derna may be more prone to flood damage."
+  },
+  {
+    "objectID": "results_discuss.html#other-land-cover-types-to-water-body",
+    "href": "results_discuss.html#other-land-cover-types-to-water-body",
+    "title": "Results & Discussions",
+    "section": "Other land cover types to Water body",
+    "text": "Other land cover types to Water body\n\n\n\nChange in land cover classification to Water body\n\n\nObservations: The map above shows that the flooded areas as of 13 September (one day after the flood) are near the mouth of Wadi Derna where the river met the ocean. It shows that the flood had subsided in most areas, though some previously vegetated areas remain inundated. This may be because vegetated areas contained higher amounts of moisture before the flood, making them unable to absorb all the flood water that inundated that area. Other areas, however, were likely drier and thus were able to absorb flood waters."
   }
 ]
