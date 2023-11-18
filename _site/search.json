@@ -4,7 +4,7 @@
     "href": "results_discuss.html",
     "title": "Results & Discussions",
     "section": "",
-    "text": "The classification of pre flood land cover is as follows:\n\n\n\nPre-flood land cover classification\n\n\nThe classification of post flood land cover is as follows:\n\n\n\nPost-flood land cover classification\n\n\nAfter the classification of land use pre and post flood, a land cover change analysis is conducted. We focused on land cover change into bare land and water body to observed the extent of damage and flooding done."
+    "text": "Classification of pre flood land cover using Minimum Distance\n\n\n\n\n\nClassification of post flood land cover using Minimum Distance\n\n\n\n\n\n\n\n\nClassification of pre flood land cover using Random Forest\n\n\n\n\n\nClassification of post flood land cover using Random Forest"
   },
   {
     "objectID": "methodology.html",
@@ -158,13 +158,27 @@
     "href": "results_discuss.html#other-land-cover-types-to-bare-land",
     "title": "Results & Discussions",
     "section": "Other land cover types to Bare Land",
-    "text": "Other land cover types to Bare Land\n\n\n\nChange in land cover classification to Bare land\n\n\nObservations: The map above shows that for the land in closer proximity to the dam, there are generally more changes from other land types to bare land. It also appears that there was more damage to Built-up areas to the East of Wadi Derna, indicating that the East part of Derna may be more prone to flood damage."
+    "text": "Other land cover types to Bare Land\n\n\n\nLand cover change to Bare land\n\n\nObservations: The map above shows that for the land in closer proximity to the dam, there are generally more changes from other land types to bare land. It also appears that there was more damage to Built-up areas to the East of Wadi Derna, indicating that the East part of Derna may be more prone to flood damage."
   },
   {
     "objectID": "results_discuss.html#other-land-cover-types-to-water-body",
     "href": "results_discuss.html#other-land-cover-types-to-water-body",
     "title": "Results & Discussions",
     "section": "Other land cover types to Water body",
-    "text": "Other land cover types to Water body\n\n\n\nChange in land cover classification to Water body\n\n\nObservations: The map above shows that the flooded areas as of 13 September (one day after the flood) are near the mouth of Wadi Derna where the river met the ocean. It shows that the flood had subsided in most areas, though some previously vegetated areas remain inundated. This may be because vegetated areas contained higher amounts of moisture before the flood, making them unable to absorb all the flood water that inundated that area. Other areas, however, were likely drier and thus were able to absorb flood waters."
+    "text": "Other land cover types to Water body\n\n\n\nLand cover change to Water body\n\n\nObservations: The map above shows that the flooded areas as of 13 September (one day after the flood) are near the mouth of Wadi Derna where the river met the ocean. It shows that the flood had subsided in most areas, though some previously vegetated areas remain inundated. This may be because vegetated areas contained higher amounts of moisture before the flood, making them unable to absorb all the flood water that inundated that area. Other areas, however, were likely drier and thus were able to absorb flood waters."
+  },
+  {
+    "objectID": "results_discuss.html#using-the-minimum-distance-algorithm",
+    "href": "results_discuss.html#using-the-minimum-distance-algorithm",
+    "title": "Results & Discussions",
+    "section": "",
+    "text": "Classification of pre flood land cover using Minimum Distance\n\n\n\n\n\nClassification of post flood land cover using Minimum Distance"
+  },
+  {
+    "objectID": "results_discuss.html#using-the-random-forest-algorithm",
+    "href": "results_discuss.html#using-the-random-forest-algorithm",
+    "title": "Results & Discussions",
+    "section": "",
+    "text": "Classification of pre flood land cover using Random Forest\n\n\n\n\n\nClassification of post flood land cover using Random Forest"
   }
 ]

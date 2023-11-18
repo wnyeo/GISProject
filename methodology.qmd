@@ -23,6 +23,8 @@ Download the datasets for analysis.
 
 Create False Color Composite (FCC) for both pre and post flood layers.
 
+![False Color Composite of Preflood layer](img/FCC_preflood.png){fig-align="center"} ![False Color Composite of Postflood layer](img/FCC_postflood.png){fig-align="center"}
+
 ## Section 4: Training the supervised classification model
 
 4.1: Choosing the classes for analysis

@@ -4,36 +4,58 @@ title: "Results & Discussions"
 
 # Land cover classification
 
-The classification of pre flood land cover is as follows:
+## Using the Minimum Distance algorithm
 
-![Pre-flood land cover classification](img/pre_classification.png){fig-align="center"}
+![Classification of pre flood land cover using Minimum Distance](img/Land_cover_classification_MD_Pre.png)
 
-The classification of post flood land cover is as follows:
+![Classification of post flood land cover using Minimum Distance](img/Land_cover_classification_MD_Post.png)
 
-![Post-flood land cover classification](img/post_classification.png){fig-align="center"}
+## Using the Random Forest algorithm
 
-After the classification of land use pre and post flood, a land cover change analysis is conducted. We focused on land cover change into bare land and water body to observed the extent of damage and flooding done.
+![Classification of pre flood land cover using Random Forest](img/Land_cover_classification_RF_Pre.png)
+
+![Classification of post flood land cover using Random Forest](img/Land_cover_classification_RF_Post.png)
+
+# Accuracy of Classifications
+
+We will be using the overall accuracy to evaluate the accuracy of our classification and ensure it meets a certain threshold. The overall accuracy is a measure of the proportion of correctly classified pixels over the total number of pixels.
+
+![Evaluation Table](img/evaluation_table.png){fig-align="center"}
+
+We also looked into the finer details of the per-class accuracy using the Producer and User accuracy metrics and noted that the differences in producer and user accuracy was quite different among classes. This may be a result of spectral similarities between some classes, resulting in misclassification between the classes. Even after trying to vary and increase the training input ROIs for the classes, producer and user accuracy still remained low for some classes. This is a limitation of our classification that might result in an inaccurate classification and change detection map. 
+
+Since the accuracy and kappa hat classification of Minimum Distance is better than Random Forest, the results of classification from the Minimum Distance is used for analysis of change in land cover in the subsequent sections.
 
 # Change in land cover classification
 
 ## Other land cover types to Bare Land
 
-![Change in land cover classification to Bare land](img/change_to_bare_land.png){fig-align="center"}
+![Land cover change to Bare land](img/land_cover_change_bare_land.png){fig-align="center"}
 
 Observations: The map above shows that for the land in closer proximity to the dam, there are generally more changes from other land types to bare land. It also appears that there was more damage to Built-up areas to the East of Wadi Derna, indicating that the East part of Derna may be more prone to flood damage.
 
 ## Other land cover types to Water body
 
-![Change in land cover classification to Water body](img/change_to_water.png){fig-align="center"}
+![Land cover change to Water body](img/land_cover_change_water_body.png){fig-align="center"}
 
 Observations: The map above shows that the flooded areas as of 13 September (one day after the flood) are near the mouth of Wadi Derna where the river met the ocean. It shows that the flood had subsided in most areas, though some previously vegetated areas remain inundated. This may be because vegetated areas contained higher amounts of moisture before the flood, making them unable to absorb all the flood water that inundated that area. Other areas, however, were likely drier and thus were able to absorb flood waters.
 
 # Recommendations
 
-Given the observations above, we would like to provide the following recommendations to avoid disastrous impact of floods in the future:
+Given the observations above on the land cover change, we would like to provide the following recommendations to avoid disastrous impact of floods in the future:
 
 -   Avoid building settlements and buildings near the Wadi Derna and areas that were heavily impacted by this flood (flooded areas and areas with flood trace)
 
 -   Rebuild the dams using an asphalt-concrete core
 
 -   Build flood walls along Wadi Derna
+
+In addition, we identified areas that were turned into Bare land and Water body after then flood (damaged areas), non-damaged areas and Derna's healthcare facilities and major roads for recommendations to locate emergency relief facilities.
+
+![Damaged areas after the flood](img/land_cover_change_damaged_areas.png){fig-align="center"}
+
+The healthcare facilities in Derna are outlined in Red in the above map. Upon closer inspection, the largest healthcare facility seems to have suffered substantial damage. The northernmost healthcare facility (near the shore) also seems to have suffered significant damage. In light of this damage and the flood, there might need to be temporary healthcare facilities set up. Our group recommends setting up temporary healthcare facilities in non-damaged built-up areas as there may not be enough time and resources to set up new facilities due to the urgency of treating injuries. Looking more closely at the map, we can see that there are non-damaged buildings in the eastern and western part of Derna as can be seen by larger patches of white while the central part of Derna is severely damaged. It can also be seen that the central part of Derna may require the most rebuilding efforts and resources due to the damage it suffered.
+
+However, it must be noted that closer inspection should be done on the ground before selecting this area as temporary healthcare facilities as not all factors determining suitability can be seen from this map.
+
+Overall, as can be seen by the above map, Derna suffered widespread damage that didn\'t spare any area in particular. Due to the damage on road networks, transportation across Derna may be difficult. Therefore, emergency relief facilities such as healthcare facilities and food banks should aim to be distributed across the city and make use of existing built-up areas before evacuation and/or rebuilding efforts are in place.
