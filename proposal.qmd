@@ -4,17 +4,17 @@ title: "Project Proposal"
 
 # Motivation of the project
 
-Tropical-like cyclones typically occur once a year in the Mediterranean. This year's (2023) storm, named Storm Daniel, is the deadliest seen. Derna, a city in Libya was significantly affected by the storm as the Storm resulted in the collapse of two dams, resulting in a flood. The flood washed people out to sea and led to the displacement of around 40,000 people (according to estimates by the UN International Organization of Migration). There were also major impacts infrastructure wise; entire neighbourhoods were swept out to sea, roads were destroyed, and over 3,100 buildings were destroyed (as per estimates by United Nations satellite centre indicate that around)
+Tropical-like cyclones typically occur once a year in the Mediterranean. This year\'s (2023) storm, named Storm Daniel, is the deadliest seen. Derna, a city in Libya was significantly affected by the storm as the Storm resulted in the collapse of two dams, resulting in a flood. The flood washed people out to sea and led to the displacement of around 40,000 people (according to estimates by the UN International Organization of Migration). There were also major impacts infrastructure wise; entire neighbourhoods were swept out to sea, roads were destroyed, and over 3,100 buildings were destroyed (as per estimates by the United Nations satellite centre indicate that around). Floods can also result in long term impacts on the economy as infrastructure and inventory may need a substantial amount of time to be rebuilt. As such, planning is essential to allocate resources effectively so as to maximise recovery and resilience in the future. 
 
-Due to the difficulty of accessing on the ground data in areas without established on-the-ground sensing infrastructure, satellite data is the main source of data for post-flood management and planning. Satellite data can be used for land use/ land cover change detection which is useful for analysing the impact of the flood on different areas and better planning cities to be more disaster resistant in the future.
+Geospatial Analysis can support planning decisions in the process of recovery to rebuild and strengthen the society against future incidents. Due to the difficulty of accessing on the ground data in areas without established on-the-ground sensing infrastructure, satellite data is the main source of data for post-flood management and planning. Satellite data can be used for land use/ land cover change detection which is useful for analysing the impact of the flood on different areas and selecting suitable sites for emergency response facilities and to inform recovery and rebuilding efforts.
 
 # Project objective
 
-The project would investigate changes in land use/ land cover after the flooding of Derna City in Libya on 10 September 2023, due to Storm Daniel and the collapse of the dam. Appropriate methods to conduct land classification will be used to classify land use/ land cover before and after the storm respectively. With the analysis, the extent of damage caused by the flood can be estimated, quantified and delineated for mitigation and prevention of future flooding.
+The project investigates the changes in land cover after the flooding of Derna City in Libya on 10 September 2023, due to Storm Daniel and the collapse of the dam. Appropriate methods will be used to classify land cover before and after the storm respectively. Using land cover change, the extent and types of damage caused by the flood can be identified and analyzed for identifying suitable sites for healthcare facilities.
 
 # Data
 
-For this project, satellite data for Derna City will be sourced from [Opernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home) and [OpenAerialMap](https://openaerialmap.org/). Satellite data from 7 September and 12 September 2023 will be used to investigate the changes.
+For this project, satellite data for Derna City will be sourced from [Maxar's Open Data Program](https://www.maxar.com/open-data/libya-floods-0923). Satellite data from 7 September and 12 September 2023 will be used to investigate the changes. 
 
 Other data that will be used also includes:
 
@@ -26,11 +26,13 @@ Other data that will be used also includes:
 
 The project will involve:
 
--   performing supervised classification of the pre-flood satellite data and post-flood satellite data using different algorithms, evaluation of the chosen algorithms' classification, and the selection of an appropriate algorithm for the final analysis.
+-   performing supervised classification of the pre-flood satellite data and post-flood satellite data using different algorithms, evaluation of the chosen algorithms\' classification, and the selection of an appropriate algorithm for the final analysis.
 
 -   Land use/ land cover change analysis - through running an algorithm that detects the land use/land cover change by class
 
 -   Analysis of change - by observing patterns in the land use/land cover change
+
+-   Identifying suitable sites for a temporary healthcare facility based on land use change
 
 ## Division of work
 

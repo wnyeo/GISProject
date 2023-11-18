@@ -11,7 +11,7 @@
     "href": "methodology.html",
     "title": "Methodology",
     "section": "",
-    "text": "The project will use supervised classification to identify change in land use/ land cover in Derna City pre and post floods. This page outlines the main steps and methodology for analysis, more a more detailed guide, please find it here: link"
+    "text": "The project will use supervised classification to identify change in land cover in Derna City pre and post floods. This page outlines the main steps and methodology for analysis, more a more detailed guide, please find it here: link"
   },
   {
     "objectID": "methodology.html#section-1-selection-of-classes-for-training-and-testing",
@@ -74,7 +74,7 @@
     "href": "proposal.html",
     "title": "Project Proposal",
     "section": "",
-    "text": "Tropical-like cyclones typically occur once a year in the Mediterranean. This year’s (2023) storm, named Storm Daniel, is the deadliest seen. Derna, a city in Libya was significantly affected by the storm as the Storm resulted in the collapse of two dams, resulting in a flood. The flood washed people out to sea and led to the displacement of around 40,000 people (according to estimates by the UN International Organization of Migration). There were also major impacts infrastructure wise; entire neighbourhoods were swept out to sea, roads were destroyed, and over 3,100 buildings were destroyed (as per estimates by United Nations satellite centre indicate that around)\nDue to the difficulty of accessing on the ground data in areas without established on-the-ground sensing infrastructure, satellite data is the main source of data for post-flood management and planning. Satellite data can be used for land use/ land cover change detection which is useful for analysing the impact of the flood on different areas and better planning cities to be more disaster resistant in the future."
+    "text": "Tropical-like cyclones typically occur once a year in the Mediterranean. This year's (2023) storm, named Storm Daniel, is the deadliest seen. Derna, a city in Libya was significantly affected by the storm as the Storm resulted in the collapse of two dams, resulting in a flood. The flood washed people out to sea and led to the displacement of around 40,000 people (according to estimates by the UN International Organization of Migration). There were also major impacts infrastructure wise; entire neighbourhoods were swept out to sea, roads were destroyed, and over 3,100 buildings were destroyed (as per estimates by the United Nations satellite centre indicate that around). Floods can also result in long term impacts on the economy as infrastructure and inventory may need a substantial amount of time to be rebuilt. As such, planning is essential to allocate resources effectively so as to maximise recovery and resilience in the future. \nGeospatial Analysis can support planning decisions in the process of recovery to rebuild and strengthen the society against future incidents. Due to the difficulty of accessing on the ground data in areas without established on-the-ground sensing infrastructure, satellite data is the main source of data for post-flood management and planning. Satellite data can be used for land use/ land cover change detection which is useful for analysing the impact of the flood on different areas and selecting suitable sites for emergency response facilities and to inform recovery and rebuilding efforts."
   },
   {
     "objectID": "proposal.html#division-of-work",
@@ -116,7 +116,7 @@
     "href": "methodology.html#section-4-training-the-supervised-classification-model",
     "title": "Methodology",
     "section": "Section 4: Training the supervised classification model",
-    "text": "Section 4: Training the supervised classification model\n4.1: Choosing the classes for analysis\nThe following classes are chosen for the analysis:\n\nBuilt-up area\nBare land\nImpervious surfaces\nWater body\nVegetation\nCloud [Only for post flood layer]\nCloud shadow [Only for post flood layer]\n\n4.2: Select areas and add training samples for each land cover type\n4.3: Check ROI signature\n4.4: Run SCP Classification on 2 Algorithms: Minimum Distance and Maximum Likelihood"
+    "text": "Section 4: Training the supervised classification model\n4.1: Choosing the classes for analysis\nThe following classes are chosen for the analysis:\n\nBuilt-up area\nBare land\nImpervious surfaces\nWater body\nVegetation\nCloud [Only for post flood layer]\nCloud shadow [Only for post flood layer]\n\n4.2: Select areas and add training samples for each land cover type\n4.3: Check ROI signature\n4.4: Run SCP Classification on 2 Algorithms: Minimum Distance and Random Forest"
   },
   {
     "objectID": "methodology.html#section-5-evaluating-the-classification",
@@ -130,7 +130,7 @@
     "href": "methodology.html#section-6-analysis",
     "title": "Methodology",
     "section": "Section 6: Analysis",
-    "text": "Section 6: Analysis\n5.1: Change detection of classes with SCP Plugin\n5.2: Analyse extent of flood damage\nRepeat Section 4 - 6 for the post flood layer"
+    "text": "Section 6: Analysis\n6.1: Change detection of classes with SCP Plugin\n6.2: Analyse extent of flood damage\nRepeat Section 4 - 6 for the post flood layer"
   },
   {
     "objectID": "methodology.html#section-7-cross-checking-with-external-sources",

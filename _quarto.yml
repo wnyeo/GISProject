@@ -21,6 +21,12 @@ website:
     right:
       - href: about.qmd
         text: About
+        
+    tools:
+    - icon: github
+      href: https://github.com/wnyeo/GISProject
+
+
 
 format:
   html:
