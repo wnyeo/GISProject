@@ -64,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -120,12 +120,12 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
 <th>Time</th>
 <th>Agenda</th>
 <th><p>Minutes</p>
-<p>*Decisions are highlighted</p></th>
+<p>*Decisions are bolded</p></th>
 <th>Action Items</th>
 </tr>
 </thead>
@@ -167,57 +167,55 @@ ul.task-list li input[type="checkbox"] {
 <li><p>AOM</p></li>
 </ol></td>
 <td><ol type="1">
-<li><p>Theme and analysis plan:</p>
-<ol type="1">
-<li><p>Theme 1</p>
-<ol type="1">
+<li><em>Theme and analysis plan:</em></li>
+</ol>
+<p>For Theme 1</p>
+<ul>
 <li><p>Looks more interesting but to check with Prof about our analysis plan to see feasibility of plan and if our understanding of the Theme is correct</p></li>
 <li><p>Analysis:</p>
-<ol type="1">
+<ul>
 <li><p>Choose two dates for comparison</p></li>
 <li><p>Data compilation</p></li>
-</ol></li>
+</ul></li>
 <li><p>Questions</p>
-<ol type="1">
+<ul>
 <li><p>How to choose the two dates to compare the land use/land cover? Should we research the optimal dates? Is there a “best practice” method of choosing the two dates for comparison?</p></li>
 <li><p>How can we do the comparison</p>
-<ol type="1">
+<ul>
 <li><p>Like something similar to NDVI for different kinds of land use.</p></li>
 <li><p>Or some classification tool for satellite data</p></li>
-</ol></li>
+</ul></li>
 <li><p>Should we take into account the different types of flooding and the land use?</p>
-<ol type="1">
+<ul>
 <li>Eg: pluvial and fluvial flooding and land use</li>
-</ol></li>
-</ol></li>
-</ol></li>
-<li><p>Theme 2</p>
-<ol type="1">
+</ul></li>
+</ul></li>
+</ul>
+<p>For Theme 2</p>
+<ul>
 <li><p>Somewhat like the Childcare Center accessibility analysis</p></li>
 <li><p>Analysis:</p>
-<ol type="1">
+<ul>
 <li><p>Approach would be like the childcare accessibility for Punggol area</p></li>
 <li><p>Finding out distance between residential areas and medical and evacuation areas</p></li>
-</ol></li>
-</ol></li>
-<li><p>Theme 3</p>
-<ol type="1">
+</ul></li>
+</ul>
+<p>For Theme 3</p>
+<ul>
 <li><p>GIS and remote sensing data → remote sensing data aspect would be the satellite images, QGIS analysis comes in for recovery planning, distance to evacuation centres</p></li>
 <li><p>Analysis:</p>
-<ol type="1">
+<ul>
 <li>Possible dataset: <a href="https://data.humdata.org/dataset/buildings-footprint-floods-derna-libya" class="uri">https://data.humdata.org/dataset/buildings-footprint-floods-derna-libya</a></li>
-</ol></li>
+</ul></li>
 <li><p>Question:</p>
-<ol type="1">
-<li><p>What kind of loss (areas impacted more by flood?)</p></li>
-<li><p>Is the data on flood impact on buildings relevant to this theme?</p></li>
-</ol></li>
-</ol></li>
-</ol></li>
-</ol>
+<ul>
+<li>What kind of loss (areas impacted more by flood?)</li>
+</ul></li>
+</ul>
+<p>Is the data on flood impact on buildings relevant to this theme?</p>
 <!-- -->
 <ol start="2" type="1">
-<li>General Questions</li>
+<li><em>General Questions</em></li>
 </ol>
 <ul>
 <li><p>Is there a format for the meeting minutes</p></li>
@@ -226,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
 <ol start="3" type="1">
 <li><p>Consultation Datetime: Friday, 9 am</p></li>
 <li><p>Some reading and literature review of the application</p></li>
-<li><p>Internal Team meetings would be on every Tuesday afternoon</p></li>
+<li><p><strong>Internal Team meetings would be on every Tuesday afternoon</strong></p></li>
 </ol></td>
 <td><p>To book a consultation slot with Prof.&nbsp;Kam</p>
 <p>Some reading and literature review of the application</p></td>
@@ -234,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>13 October 2023, 0900 - 0930 hrs (Zoom)</td>
 <td>Consultation with Prof</td>
-<td><p><strong>Prof’s explanation for Theme 1:</strong></p>
+<td><p><em>Prof’s explanation for Theme 1:</em></p>
 <p>This week hands on not enough</p>
 <ul>
 <li><p>Extract data</p></li>
@@ -260,11 +258,10 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>On choosing the different dates</p>
 <ul>
-<li>before and after the flood</li>
-</ul>
-<!-- -->
+<li>Before and after the flood
 <ul>
 <li>As close as possible to the event</li>
+</ul></li>
 </ul>
 <p>On different types of flooding</p>
 <ul>
@@ -291,7 +288,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Assess level of damages - use this as a reference for mitigation and prevention</p></li>
 </ul></li>
 </ul>
-<p><strong>Prof’s explanation for Theme 3:</strong></p>
+<p><em>Prof’s explanation for Theme 3:</em></p>
 <p>What kind of loss (areas impacted more by flood?)</p>
 <ul>
 <li><p>Referring to the data sources provided:</p>
@@ -317,7 +314,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Detect how financial services are affected</li>
 </ul></li>
 </ul>
-<p><strong>A question raised on the difference between Theme 1 and 3:</strong></p>
+<p><em>A question raised on the difference between Theme 1 and 3:</em></p>
 <ul>
 <li><p>1: focus on satellite imagery, classification and machine learning to see difference in change detection</p>
 <ul>
@@ -329,7 +326,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>More on impact assessments</p></li>
 </ul></li>
 </ul>
-<p><strong>Prof’s response to General Questions:</strong></p>
+<p><em>Prof’s response to General Questions:</em></p>
 <p>Question: Is there a format for the meeting minutes?</p>
 <ul>
 <li><p>Current one is good enough</p></li>
@@ -364,8 +361,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Project timeline is good</p></li>
 <li><p>Analysis plan is good</p></li>
 <li><p>Decided on meeting on Zoom, on Thursday, 18 october, 9am to Consult Prof.&nbsp;Kam</p></li>
+<li><p>Questions for Prof:</p></li>
 </ol>
-<p><strong>Questions for Prof:</strong></p>
 <ul>
 <li><p>Suitability of using data from 22 October for comparison (instead of data from just after the flood)</p>
 <ul>
@@ -379,14 +376,13 @@ ul.task-list li input[type="checkbox"] {
 <li>Before or after</li>
 </ul></li>
 </ul>
-<ol start="4" type="1">
+<!-- -->
+<ol start="5" type="1">
 <li>Other matters</li>
 </ol>
-<!-- -->
-<ol type="1">
+<ul>
 <li><p>On decision of using either Landsat8 or Sentinel2 data: use the source with clear view and least cloud cover</p></li>
-<li><p>Decided on classes to use for classification:</p></li>
-</ol>
+<li><p>Decided on classes to use for classification:</p>
 <ul>
 <li><p>Water body</p></li>
 <li><p>Bare land</p></li>
@@ -397,14 +393,13 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p>Vegetation</p></li>
 <li><p>Impervious surfaces</p></li>
-</ul>
-<ol start="3" type="1">
+</ul></li>
 <li><p>There will be an alignment of training dataset used after finalising the data</p></li>
 <li><p>On the project website:</p>
-<ol type="1">
+<ul>
 <li>The step-by-step guide will be a link to the document</li>
-</ol></li>
-</ol></td>
+</ul></li>
+</ul></td>
 <td><p>Search for data on Landsat8</p>
 <p>Assemble data and do preliminary analysis</p></td>
 </tr>
@@ -414,20 +409,20 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>Ask Prof.&nbsp;Kam questions</li>
 </ol></td>
-<td><p><strong>Question on the suitability of using data on 22 September for the “after” comparison, instead of data from just after the flood, due to lack of clear data:</strong></p>
+<td><p><em>Question on the suitability of using data on 22 September for the “after” comparison, instead of data from just after the flood, due to lack of clear data:</em></p>
 <ul>
 <li>To check data for 12 and 13 September on Sentinel (should not have high cloud cover)</li>
 </ul>
-<p><strong>How much test data is typically appropriate? How to decide?</strong></p>
+<p><em>How much test data is typically appropriate? How to decide?</em></p>
 <ul>
 <li><p>Has more to do with the spread (should get a variety for each class)</p></li>
 <li><p>For each land cover type (class, not meta class), at least 30 pixels (in total)</p></li>
 </ul>
-<p><strong>Pros and cons of grouping in the same meta class/ separate?</strong></p>
+<p><em>Pros and cons of grouping in the same meta class/ separate?</em></p>
 <ul>
 <li>Can group classes under one meta class</li>
 </ul>
-<p><strong>Any recommendations for other classification tools to use?</strong></p>
+<p><em>Any recommendations for other classification tools to use?</em></p>
 <ul>
 <li><p>Those shared in class should be good enough</p></li>
 <li><p>Usually GIS community uses statistical methods but are moving towards ML techniques</p></li>
@@ -436,7 +431,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Can search for remote sensing under plugins and we will see a list</p></li>
 <li><p>Can explore Orfeo</p></li>
 </ul>
-<p><strong>On choosing the training data/ testing data - which layer (TCC/ FCC) to use?</strong></p>
+<p><em>On choosing the training data/ testing data - which layer (TCC/ FCC) to use?</em></p>
 <ul>
 <li><p>Training data should be different before and after</p></li>
 <li><p>Different samples from same location but categorised to different land use types</p></li>
@@ -445,11 +440,11 @@ ul.task-list li input[type="checkbox"] {
 <li>Use humanitarian data source (ground truth) to find</li>
 </ul></li>
 </ul>
-<p><strong>How to determine the extent of the flood</strong></p>
+<p><em>How to determine the extent of the flood</em></p>
 <ul>
 <li>Depends on the classification map</li>
 </ul>
-<p><strong>Purpose of PCA</strong></p>
+<p><em>Purpose of PCA</em></p>
 <ul>
 <li><p>A form of transformation such that the data is not correlated</p></li>
 <li><p>Used to deal with highly correlated data (e.g.&nbsp;infrared and red light when there is high vegetation)</p></li>
@@ -468,9 +463,9 @@ ul.task-list li input[type="checkbox"] {
 </ol></td>
 <td><ol type="1">
 <li><p>Other than SCP for maximum likelihood and minimum distance, look into Dzetsaka Plugin</p>
-<ol type="1">
+<ul>
 <li>Reason: Dzetsaka provides more options for different algorithms to classify raster data (SVM, Random Forest, KNN, Gaussian Mixture Model)</li>
-</ol></li>
+</ul></li>
 <li><p>For both Pre and Post floods raster layers:</p></li>
 </ol>
 <p>Select classes - same for training and testing</p>
@@ -514,7 +509,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Ask about Bands used for colour composite maps (Sentinel data and Geoeye)</p></li>
 <li><p>Ask about inability to see spectral signature plot after selecting ROIs</p></li>
 </ol></td>
-<td><p>Addressing Cloud Cover for GeoEye data:</p>
+<td><p><em>Addressing Cloud Cover for GeoEye data</em>:</p>
 <ul>
 <li><p>Try Random Forest for Geoeye data classification if Max Likelihood is not working</p></li>
 <li><p>SCP Cloud Masking should work for all data types</p></li>
@@ -524,7 +519,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p>To note that the resolution is different for Sentinel and GeoEye satellite data so it might affect the number of pixels classified as a class</p></li>
 </ul>
-<p><strong>Bands used for colour composite maps</strong></p>
+<p><em>Bands used for colour composite maps:</em></p>
 <ul>
 <li><p>Brought up False Colour Composite issue when using bands 4-3-2 for False</p>
 <ul>
@@ -535,7 +530,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Tried removing Band 4 but unable to remove</li>
 </ul></li>
 </ul>
-<p><strong>Inability to see spectral signature plots after digitising ROIs:</strong></p>
+<p><em>Inability to see spectral signature plots after digitising ROIs:</em></p>
 <ul>
 <li><p>Wei Ni not able to see signature plot as the type is ROI instead of R&amp;S in her ROI Signature list</p>
 <ul>
@@ -554,7 +549,7 @@ ul.task-list li input[type="checkbox"] {
 <td>3 November 2023</td>
 <td>No meeting - decisions made offline</td>
 <td><ul>
-<li><p>Changed Pre-Flood and Post-Flood Raster data source to Maxar</p>
+<li><p><strong>Changed Pre-Flood and Post-Flood Raster data source to Maxar</strong></p>
 <ul>
 <li>This is due to issues with Band 4 of the original GeoEye data from OpenArialMap and because Maxar provides raster maps for both Pre-Flood and Post-Flood, allowing us to standardise the resolution of the maps used for Land Cover Change Detection</li>
 </ul></li>
@@ -572,17 +567,12 @@ ul.task-list li input[type="checkbox"] {
 </ol></td>
 <td><ul>
 <li>Conducted land use change detection on Xin Yi’s laptop for the pre and post flood classification layer with the SCP plugin.</li>
-</ul>
-<!-- -->
+<li>After the analysis is conducted, <strong>decided to focus on changes to two land cover types of interest for Land Cover Change Detection:</strong>
 <ul>
-<li>After the analysis is conducted, decided to focus on changes to two land cover types of interest for Land Cover Change Detection:</li>
-</ul>
-<ol type="1">
-<li><p>Bare land</p></li>
-<li><p>Water body</p></li>
-</ol>
-<ul>
+<li><strong>Bare land</strong></li>
+<li><strong>Water body</strong></li>
 <li>This is because land use changes to bare land and water bodies reflect areas of damage and flooding.</li>
+</ul></li>
 </ul>
 <p>Insights from the land use change detection include:</p>
 <ul>
@@ -600,16 +590,35 @@ ul.task-list li input[type="checkbox"] {
 <li>Completion of Project poster</li>
 </ol></td>
 <td><ul>
-<li><p>Decided on including the following sections in poster: Problem/ Motivation, Objectives, Approach, Insights and Recommendations, Limitations, Future Work</p></li>
+<li><p><strong>Decided on including the following sections in poster: Problem/ Motivation, Objectives, Approach, Insights and Recommendations, Limitations, Future Work</strong></p></li>
 <li><p>Poster completion on Canva</p></li>
 </ul></td>
 <td>Refine poster for submission and submit poster</td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><p>13 November 2023,</p>
+<p>1200 - 1600 hrs</p>
+<p>(In person)</p></td>
+<td><p>Internal Team Meeting</p>
+<ol type="1">
+<li><p>Finish up step by step guide and do a final read-through</p></li>
+<li><p>Add and polish up meeting minutes</p></li>
+<li><p>Finalise website contents</p></li>
+<li><p>Tidy up QGIS project file for submission</p></li>
+<li><p>Update website with contents</p></li>
+</ol></td>
+<td><p>Was able to complete:</p>
+<ol type="1">
+<li><p>Step by step guide</p></li>
+<li><p>Finalise meeting minutes</p></li>
+<li><p>Finalise website contents</p></li>
+</ol>
+<p>On agenda 4:</p>
+<p>Found an issue when tidying up QGIS file for submission, faced the error of accessing training input when trying to load previously defined ROI scp files into QGIS.</p>
+<p>On agenda 5:</p>
+<p>Website will be updated once contents are written.</p></td>
+<td><p>To consult Prof.&nbsp;Kam about error faced: Error Accessing Training Input when trying to load previously defined ROI scp files into QGIS</p>
+<p>To submit project deliverables</p></td>
 </tr>
 </tbody>
 </table>
