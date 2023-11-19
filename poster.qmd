@@ -1,5 +1,9 @@
 ---
 title: "Poster"
+format:
+  html:
+    toc: false
+    page-layout: full
 ---
 
 ![Project Poster](img/SMT201_G9_Poster.jpg)

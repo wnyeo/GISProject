@@ -23,7 +23,7 @@ We will be using Overall Accuracy and Kappa Hat Classification to evaluate the a
 
 ![Figure 5: Evaluation Table](img/evaluation_table.png){fig-align="center"}
 
-We also looked into the finer details of the per-class accuracy using the Producer's and User's Accuracy metrics (PA & UA) and noted that the differences in PA and UA was quite different among classes. This may be a result of spectral similarities between some classes, resulting in misclassification between the classes. Even after trying to vary and increase the training input ROIs for the classes, PA and UA still remained low for some classes. This is a limitation of our classification that might result in an inaccurate classification and change detection map. Results of the accuracy evaluation can be found in the carousel below.
+We also looked into the finer details of the per-class accuracy using the Producer's and User's Accuracy metrics (PA & UA) and noted that the differences in PA and UA were quite different among classes. This may be a result of spectral similarities between some classes, resulting in misclassification between the classes. Even after trying to vary and increase the training input ROIs for the classes, PA and UA still remained low for some classes. This is a limitation of our classification that might result in an inaccurate classification and change detection map. Results of the accuracy evaluation can be found in the carousel below.
 
 ```{=html}
 <div id="carouselExampleIndicators" class="carousel slide">

@@ -1,14 +1,13 @@
 ---
 title: "Report"
-format: html
+format:
+  html:
+    toc: false
+    page-layout: full
 ---
 
 The project can also be found at this [link](https://docs.google.com/document/d/1TDTIBHZz07KWO0tPHxBvvrTl8kIs7hfGsqr2Lgyt9Os/edit).
 
-\`\`\`
-
-<iframe src width="100%" height="100%">
+<iframe src="documents/Project Report.pdf" width="100%" height="100%">
 
 </iframe>
-
-\`\`\`
