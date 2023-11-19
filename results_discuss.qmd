@@ -19,17 +19,16 @@ format: html
 
 # Accuracy of Classifications
 
-We will be using the overall accuracy to evaluate the accuracy of our classification and ensure it meets a certain threshold. The overall accuracy is a measure of the proportion of correctly classified pixels over the total number of pixels.
+We will be using Overall Accuracy and Kappa Hat Classification to evaluate the accuracy of our classification. The Overall Accuracy is a measure of the proportion of correctly classified pixels over the total number of pixels, whereas Kappa Hat Classification is a discrete multivariate technique used in accuracy assessments, with values ranging from 0 - 1. The closer to 1, the better the strength of agreement or accuracy. A summary of the Overall Accuracy and Kappa Hat Classification score for Minimum Distance and Random Forest algorithms on the 2 layers can be seen in Figure 5 below.
 
 ![Figure 5: Evaluation Table](img/evaluation_table.png){fig-align="center"}
 
-We also looked into the finer details of the per-class accuracy using the Producer and User accuracy metrics and noted that the differences in producer and user accuracy was quite different among classes. This may be a result of spectral similarities between some classes, resulting in misclassification between the classes. Even after trying to vary and increase the training input ROIs for the classes, producer and user accuracy still remained low for some classes. This is a limitation of our classification that might result in an inaccurate classification and change detection map. 
+We also looked into the finer details of the per-class accuracy using the Producer's and User's Accuracy metrics (PA & UA) and noted that the differences in PA and UA was quite different among classes. This may be a result of spectral similarities between some classes, resulting in misclassification between the classes. Even after trying to vary and increase the training input ROIs for the classes, PA and UA still remained low for some classes. This is a limitation of our classification that might result in an inaccurate classification and change detection map. Results of the accuracy evaluation can be found in the carousel below.
 
 ---
 format: html
 css: bootstrap.min.css
 ---
-
 
 ```{=html}
 <div id="carouselExampleIndicators" class="carousel slide">
@@ -74,23 +73,25 @@ css: bootstrap.min.css
 </div>
   
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="carousel-control-prev-icon btn-secondary" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
   
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="carousel-control-next-icon btn-secondary" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
   
 </div>
 ```
 
----
+------------------------------------------------------------------------
 
-Since the accuracy and kappa hat classification of Minimum Distance is better than Random Forest, the results of classification from the Minimum Distance is used for analysis of change in land cover in the subsequent sections.
+Since the Overall Accuracy and Kappa Hat Classification of Minimum Distance is better than Random Forest, the results of classification from the Minimum Distance is used for analysis of change in land cover in the subsequent sections.
 
 # Change in land cover classification
+
+Using SCP's land cover change function, we conduct land cover change analysis of pre and post flood layers classified with the Minimum Distance algorithm. We sieved out areas that changed to Bare land and Water body to identify areas of damage and flooding respectively. Results can be seen in figures 6 and 7 below.
 
 ## Other land cover types to Bare Land
 
@@ -103,6 +104,14 @@ Observations: The map above shows that for the land in closer proximity to the d
 ![Figure 7: Land cover change to Water body](img/land_cover_change_water_body.png){fig-align="center"}
 
 Observations: The map above shows that the flooded areas as of 13 September (one day after the flood) are near the mouth of Wadi Derna where the river met the ocean. It shows that the flood had subsided in most areas, though some previously vegetated areas remain inundated. This may be because vegetated areas contained higher amounts of moisture before the flood, making them unable to absorb all the flood water that inundated that area. Other areas, however, were likely drier and thus were able to absorb flood waters.
+
+# Cross checking with other sources
+
+We have also cross checked our analysis with other sources about the Libya floods, from [COPERNICUS Emergency Management Service - Mapping](https://rapidmapping.emergency.copernicus.eu/EMSR696/download). The data shows flood trace and flooded areas as of 14 September 2023, shown in Figure 8.
+
+![Figure 8: Flood Delineation](img/flood_delineation.png){fig-align="center"}
+
+By comparing figures 7 and 8, we are able to observe that reported flooding areas at the mouth of Wadi Derna (in red in figure 8) corresponds to the water body areas identified in figure 7.
 
 # Recommendations
 
@@ -118,11 +127,11 @@ Given the observations above on the land cover change, we would like to provide 
 
 ## Recommendations for emergency relief facilities
 
-In addition, we identified areas that were turned into Bare land and Water body after then flood (damaged areas), non-damaged areas and Derna's healthcare facilities and major roads for recommendations to locate emergency relief facilities.
+In addition, we identified areas that were turned into Bare land and Water body after the flood (damaged areas), non-damaged areas and Derna's healthcare facilities and major roads for recommendations to locate emergency relief facilities.
 
-![Figure 8: Damaged areas after the flood](img/land_cover_change_damaged_areas.png){fig-align="center"}
+![Figure 9: Damaged areas after the flood](img/land_cover_change_damaged_areas.png){fig-align="center"}
 
-The healthcare facilities in Derna are outlined in Red in the above map. Upon closer inspection, the largest healthcare facility seems to have suffered substantial damage. The northernmost healthcare facility (near the shore) also seems to have suffered significant damage. In light of this damage and the flood, there might need to be temporary healthcare facilities set up. Our group recommends setting up temporary healthcare facilities in non-damaged built-up areas as there may not be enough time and resources to set up new facilities due to the urgency of treating injuries. Looking more closely at the map, we can see that there are non-damaged buildings in the eastern and western part of Derna as can be seen by larger patches of white while the central part of Derna is severely damaged. It can also be seen that the central part of Derna may require the most rebuilding efforts and resources due to the damage it suffered.
+The healthcare facilities in Derna are outlined in Red in the above map (figure 9). Upon closer inspection, the largest healthcare facility seems to have suffered substantial damage. The northernmost healthcare facility (near the shore) also seems to have suffered significant damage. In light of this damage and the flood, there might need to be temporary healthcare facilities set up. Our group recommends setting up temporary healthcare facilities in non-damaged built-up areas as there may not be enough time and resources to set up new facilities due to the urgency of treating injuries.
 
 However, it must be noted that closer inspection should be done on the ground before selecting this area as temporary healthcare facilities as not all factors determining suitability can be seen from this map.
 
