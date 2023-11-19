@@ -2,7 +2,7 @@
 title: "Methodology"
 ---
 
-The project will use supervised classification to identify change in land cover in Derna City pre and post floods. This page outlines the main steps and methodology for analysis, more a more detailed guide, please find it in our project report: [link](https://docs.google.com/document/d/1TDTIBHZz07KWO0tPHxBvvrTl8kIs7hfGsqr2Lgyt9Os/edit?usp=sharing "Step-by-step guide")
+The project will use supervised classification to identify change in land cover in Derna City pre and post floods. This page outlines the main steps and methodology for analysis, more a more detailed guide, please find it in our project report: [link](https://smt201-group9-libya-flood-mapping.netlify.app/report "Step-by-step guide")
 
 ## Section 1: Downloading the required data
 
