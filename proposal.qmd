@@ -10,7 +10,7 @@ Geospatial Analysis can support planning decisions in the process of recovery to
 
 # Project objective
 
-The project investigates the changes in land cover after the flooding of Derna City in Libya on 10 September 2023, due to Storm Daniel and the collapse of the dam. Appropriate methods will be used to classify land cover before and after the storm respectively. Using land cover change, the extent and types of damage caused by the flood can be identified and analyzed for identifying suitable sites for healthcare facilities.
+The project investigates the changes in land cover after the flooding of Derna City in Libya on 10 September 2023, due to Storm Daniel and the collapse of the dam. Appropriate methods will be used to classify land cover before and after the storm respectively. Using land cover change analysis, the extent and types of damage caused by the flood can be identified and analyzed for identifying suitable sites for healthcare facilities.
 
 # Data
 

@@ -9,8 +9,12 @@ website:
         text: Home
       - href: proposal.qmd
         text: Project Proposal
-      - href: methodology.qmd
-        text: Methodology
+      - text: "Methodology & Report"
+        menu:
+          - text: Project Report
+            href: report.qmd
+          - text: Methodology
+            href: methodology.qmd
       - href: minutes.qmd
         text: Meeting Minutes
       - href: poster.qmd

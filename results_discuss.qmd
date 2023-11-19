@@ -25,11 +25,6 @@ We will be using Overall Accuracy and Kappa Hat Classification to evaluate the a
 
 We also looked into the finer details of the per-class accuracy using the Producer's and User's Accuracy metrics (PA & UA) and noted that the differences in PA and UA was quite different among classes. This may be a result of spectral similarities between some classes, resulting in misclassification between the classes. Even after trying to vary and increase the training input ROIs for the classes, PA and UA still remained low for some classes. This is a limitation of our classification that might result in an inaccurate classification and change detection map. Results of the accuracy evaluation can be found in the carousel below.
 
----
-format: html
-css: bootstrap.min.css
----
-
 ```{=html}
 <div id="carouselExampleIndicators" class="carousel slide">
 <div class="carousel-inner">
@@ -97,7 +92,7 @@ Using SCP's land cover change function, we conduct land cover change analysis of
 
 ![Figure 6: Land cover change to Bare land](img/land_cover_change_bare_land.png){fig-align="center"}
 
-Observations: The map above shows that for the land in closer proximity to the dam, there are generally more changes from other land types to bare land. It also appears that there was more damage to Built-up areas to the East of Wadi Derna, indicating that the East part of Derna may be more prone to flood damage.
+Observations: The map above shows that for the land in closer proximity Wadi Derna and the mouth of Wadi Derna (where the river meets the ocean) have generally more changes from other land types to bare land. It also appears that there was more damage to Built-up areas to the East of Wadi Derna, indicating that the East part of Derna may be more prone to flood damage.
 
 ## Other land cover types to Water body
 

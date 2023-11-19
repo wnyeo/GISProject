@@ -2,7 +2,7 @@
 title: "Methodology"
 ---
 
-The project will use supervised classification to identify change in land cover in Derna City pre and post floods. This page outlines the main steps and methodology for analysis, more a more detailed guide, please find it here: [link](https://docs.google.com/document/d/1TDTIBHZz07KWO0tPHxBvvrTl8kIs7hfGsqr2Lgyt9Os/edit?usp=sharing "Step-by-step guide")
+The project will use supervised classification to identify change in land cover in Derna City pre and post floods. This page outlines the main steps and methodology for analysis, more a more detailed guide, please find it in our project report: [link](https://docs.google.com/document/d/1TDTIBHZz07KWO0tPHxBvvrTl8kIs7hfGsqr2Lgyt9Os/edit?usp=sharing "Step-by-step guide")
 
 ## Section 1: Downloading the required data
 
@@ -61,7 +61,7 @@ The following classes are chosen for the analysis:
 
 **Repeat Section 4 - 5 for the post flood layer**
 
-## Section 6: Analysis
+## Section 6: Change Analysis
 
 6.1: Evaluate better algorithm and use the corresponding land classification layer for change detection
 
@@ -70,5 +70,11 @@ The following classes are chosen for the analysis:
 6.2: Analyse extent of flood damage
 
 ## Section 7: Cross checking with external sources
+
+7.1: Downloading the data
+
+7.2: Clip data to study area
+
+7.3: Style the data
 
 ## Section 8: Identifying suitable sites for a temporary healthcare facility based on land use change
