@@ -23,7 +23,9 @@ Download the datasets for analysis.
 
 Create False Color Composite (FCC) for both pre and post flood layers.
 
-![False Color Composite of Pre flood layer](img/FCC_preflood.png) ![False Color Composite of Post flood layer](img/FCC_postflood.png)
+FCC for preflood layer:![False Color Composite of Pre flood layer](img/FCC_preflood.png)
+
+FCC for post flood layer:![False Color Composite of Post flood layer](img/FCC_postflood.png)
 
 ## Section 4: Training the supervised classification model
 
@@ -55,14 +57,18 @@ The following classes are chosen for the analysis:
 
 5.1: Add testing samples for each land cover type
 
-5.2: Calculate accuracy for the different algorithms using the same test samples in section 5.1 with SCP plugin
+5.2: Calculate accuracy for the different algorithms (Minimum Distance and Random Forest) using the same test samples in section 5.1 with SCP plugin.
+
+**Repeat Section 4 - 5 for the post flood layer**
 
 ## Section 6: Analysis
 
-6.1: Change detection of classes with SCP Plugin
+6.1: Evaluate better algorithm and use the corresponding land classification layer for change detection
+
+6.2: Change detection of classes with SCP Plugin
 
 6.2: Analyse extent of flood damage
 
-**Repeat Section 4 - 6 for the post flood layer**
-
 ## Section 7: Cross checking with external sources
+
+## Section 8: Identifying suitable sites for a temporary healthcare facility based on land use change

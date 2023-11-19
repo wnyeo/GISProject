@@ -109,7 +109,7 @@
     "href": "methodology.html#section-3-data-exploration-creating-false-color-composite-images",
     "title": "Methodology",
     "section": "Section 3: Data Exploration: creating False Color Composite images",
-    "text": "Section 3: Data Exploration: creating False Color Composite images\nCreate False Color Composite (FCC) for both pre and post flood layers."
+    "text": "Section 3: Data Exploration: creating False Color Composite images\nCreate False Color Composite (FCC) for both pre and post flood layers.\nFCC for preflood layer:\nFCC for post flood layer:"
   },
   {
     "objectID": "methodology.html#section-4-training-the-supervised-classification-model",
