@@ -4,7 +4,7 @@
     "href": "results_discuss.html",
     "title": "Results & Discussions",
     "section": "",
-    "text": "Classification of pre flood land cover using Minimum Distance\n\n\n\n\n\nClassification of post flood land cover using Minimum Distance\n\n\n\n\n\n\n\n\nClassification of pre flood land cover using Random Forest\n\n\n\n\n\nClassification of post flood land cover using Random Forest"
+    "text": "Figure 1: Classification of pre flood land cover using Minimum Distance\n\n\n\n\n\nFigure 2: Classification of post flood land cover using Minimum Distance\n\n\n\n\n\n\n\n\nFigure 3: Classification of pre flood land cover using Random Forest\n\n\n\n\n\nFigure 4: Classification of post flood land cover using Random Forest"
   },
   {
     "objectID": "methodology.html",
@@ -74,14 +74,14 @@
     "href": "proposal.html",
     "title": "Project Proposal",
     "section": "",
-    "text": "Tropical-like cyclones typically occur once a year in the Mediterranean. This year's (2023) storm, named Storm Daniel, is the deadliest seen. Derna, a city in Libya was significantly affected by the storm as the Storm resulted in the collapse of two dams, resulting in a flood. The flood washed people out to sea and led to the displacement of around 40,000 people (according to estimates by the UN International Organization of Migration). There were also major impacts infrastructure wise; entire neighbourhoods were swept out to sea, roads were destroyed, and over 3,100 buildings were destroyed (as per estimates by the United Nations satellite centre indicate that around). Floods can also result in long term impacts on the economy as infrastructure and inventory may need a substantial amount of time to be rebuilt. As such, planning is essential to allocate resources effectively so as to maximise recovery and resilience in the future. \nGeospatial Analysis can support planning decisions in the process of recovery to rebuild and strengthen the society against future incidents. Due to the difficulty of accessing on the ground data in areas without established on-the-ground sensing infrastructure, satellite data is the main source of data for post-flood management and planning. Satellite data can be used for land use/ land cover change detection which is useful for analysing the impact of the flood on different areas and selecting suitable sites for emergency response facilities and to inform recovery and rebuilding efforts."
+    "text": "Tropical-like cyclones typically occur once a year in the Mediterranean. This year’s (2023) storm, named Storm Daniel, is the deadliest seen. Derna, a city in Libya was significantly affected by the storm as the Storm resulted in the collapse of two dams, resulting in a flood. The flood washed people out to sea and led to the displacement of around 40,000 people (according to estimates by the UN International Organization of Migration). There were also major impacts infrastructure wise; entire neighbourhoods were swept out to sea, roads were destroyed, and over 3,100 buildings were destroyed (as per estimates by the United Nations satellite centre indicate that around). Floods can also result in long term impacts on the economy as infrastructure and inventory may need a substantial amount of time to be rebuilt. As such, planning is essential to allocate resources effectively so as to maximise recovery and resilience in the future. \nGeospatial Analysis can support planning decisions in the process of recovery to rebuild and strengthen the society against future incidents. Due to the difficulty of accessing on the ground data in areas without established on-the-ground sensing infrastructure, satellite data is the main source of data for post-flood management and planning. Satellite data can be used for land use/ land cover change detection which is useful for analysing the impact of the flood on different areas and selecting suitable sites for emergency response facilities and to inform recovery and rebuilding efforts."
   },
   {
     "objectID": "proposal.html#division-of-work",
     "href": "proposal.html#division-of-work",
     "title": "Project Proposal",
     "section": "Division of work",
-    "text": "Division of work\n\n\n\n\n\n\n\nWork\nAssigned to\n\n\n\n\nLand use/ land cover classification\nPre flood: Wei Ni\nPost flood: Xin Yi\n\n\nLand use/ land cover change analysis\nWei Ni & Xin Yi\n\n\nAnalysis of change\nWei Ni & Xin Yi"
+    "text": "Division of work\n\n\n\n\n\n\n\nWork\nAssigned to\n\n\n\n\nLand use/ land cover classification\nPre flood: Wei Ni\nPost flood: Xin Yi\n\n\nLand use/ land cover change analysis\nWei Ni & Xin Yi\n\n\nAnalysis of change\nWei Ni & Xin Yi\n\n\nCross check extent of flood with external sources\nWei Ni\n\n\nIdentifying suitable sites for a temporary healthcare facility\nXin Yi"
   },
   {
     "objectID": "poster.html",
@@ -123,7 +123,7 @@
     "href": "methodology.html#section-5-evaluating-the-classification",
     "title": "Methodology",
     "section": "Section 5: Evaluating the classification",
-    "text": "Section 5: Evaluating the classification\n5.1: Add testing samples for each land cover type\n5.2: Calculate accuracy for the different algorithms using the same test samples in section 5.1 with SCP plugin"
+    "text": "Section 5: Evaluating the classification\n5.1: Add testing samples for each land cover type\n5.2: Calculate accuracy for the different algorithms (Minimum Distance and Random Forest) using the same test samples in section 5.1 with SCP plugin.\nRepeat Section 4 - 5 for the post flood layer"
   },
   {
     "objectID": "methodology.html#section-6-analysis",
@@ -137,7 +137,7 @@
     "href": "methodology.html#section-7-cross-checking-with-external-sources",
     "title": "Methodology",
     "section": "Section 7: Cross checking with external sources",
-    "text": "Section 7: Cross checking with external sources"
+    "text": "Section 7: Cross checking with external sources\n7.1: Downloading the data\n7.2: Clip data to study area\n7.3: Style the data"
   },
   {
     "objectID": "minutes.html",
@@ -158,27 +158,55 @@
     "href": "results_discuss.html#other-land-cover-types-to-bare-land",
     "title": "Results & Discussions",
     "section": "Other land cover types to Bare Land",
-    "text": "Other land cover types to Bare Land\n\n\n\nLand cover change to Bare land\n\n\nObservations: The map above shows that for the land in closer proximity to the dam, there are generally more changes from other land types to bare land. It also appears that there was more damage to Built-up areas to the East of Wadi Derna, indicating that the East part of Derna may be more prone to flood damage."
+    "text": "Other land cover types to Bare Land\n\n\n\nFigure 6: Land cover change to Bare land\n\n\nObservations: The map above shows that for the land in closer proximity to the dam, there are generally more changes from other land types to bare land. It also appears that there was more damage to Built-up areas to the East of Wadi Derna, indicating that the East part of Derna may be more prone to flood damage."
   },
   {
     "objectID": "results_discuss.html#other-land-cover-types-to-water-body",
     "href": "results_discuss.html#other-land-cover-types-to-water-body",
     "title": "Results & Discussions",
     "section": "Other land cover types to Water body",
-    "text": "Other land cover types to Water body\n\n\n\nLand cover change to Water body\n\n\nObservations: The map above shows that the flooded areas as of 13 September (one day after the flood) are near the mouth of Wadi Derna where the river met the ocean. It shows that the flood had subsided in most areas, though some previously vegetated areas remain inundated. This may be because vegetated areas contained higher amounts of moisture before the flood, making them unable to absorb all the flood water that inundated that area. Other areas, however, were likely drier and thus were able to absorb flood waters."
+    "text": "Other land cover types to Water body\n\n\n\nFigure 7: Land cover change to Water body\n\n\nObservations: The map above shows that the flooded areas as of 13 September (one day after the flood) are near the mouth of Wadi Derna where the river met the ocean. It shows that the flood had subsided in most areas, though some previously vegetated areas remain inundated. This may be because vegetated areas contained higher amounts of moisture before the flood, making them unable to absorb all the flood water that inundated that area. Other areas, however, were likely drier and thus were able to absorb flood waters."
   },
   {
     "objectID": "results_discuss.html#using-the-minimum-distance-algorithm",
     "href": "results_discuss.html#using-the-minimum-distance-algorithm",
     "title": "Results & Discussions",
     "section": "",
-    "text": "Classification of pre flood land cover using Minimum Distance\n\n\n\n\n\nClassification of post flood land cover using Minimum Distance"
+    "text": "Figure 1: Classification of pre flood land cover using Minimum Distance\n\n\n\n\n\nFigure 2: Classification of post flood land cover using Minimum Distance"
   },
   {
     "objectID": "results_discuss.html#using-the-random-forest-algorithm",
     "href": "results_discuss.html#using-the-random-forest-algorithm",
     "title": "Results & Discussions",
     "section": "",
-    "text": "Classification of pre flood land cover using Random Forest\n\n\n\n\n\nClassification of post flood land cover using Random Forest"
+    "text": "Figure 3: Classification of pre flood land cover using Random Forest\n\n\n\n\n\nFigure 4: Classification of post flood land cover using Random Forest"
+  },
+  {
+    "objectID": "methodology.html#section-6-change-analysis",
+    "href": "methodology.html#section-6-change-analysis",
+    "title": "Methodology",
+    "section": "Section 6: Change Analysis",
+    "text": "Section 6: Change Analysis\n6.1: Evaluate better algorithm and use the corresponding land classification layer for change detection\n6.2: Change detection of classes with SCP Plugin\n6.2: Analyse extent of flood damage"
+  },
+  {
+    "objectID": "methodology.html#section-8-identifying-suitable-sites-for-a-temporary-healthcare-facility-based-on-land-use-change",
+    "href": "methodology.html#section-8-identifying-suitable-sites-for-a-temporary-healthcare-facility-based-on-land-use-change",
+    "title": "Methodology",
+    "section": "Section 8: Identifying suitable sites for a temporary healthcare facility based on land use change",
+    "text": "Section 8: Identifying suitable sites for a temporary healthcare facility based on land use change"
+  },
+  {
+    "objectID": "results_discuss.html#general-recommendations",
+    "href": "results_discuss.html#general-recommendations",
+    "title": "Results & Discussions",
+    "section": "General Recommendations",
+    "text": "General Recommendations\nGiven the observations above on the land cover change, we would like to provide the following recommendations to avoid disastrous impact of floods in the future:\n\nAvoid building settlements and buildings near the Wadi Derna and areas that were heavily impacted by this flood (flooded areas and areas with flood trace)\nRebuild the dams using an asphalt-concrete core\nBuild flood walls along Wadi Derna"
+  },
+  {
+    "objectID": "results_discuss.html#recommendations-for-emergency-relief-facilities",
+    "href": "results_discuss.html#recommendations-for-emergency-relief-facilities",
+    "title": "Results & Discussions",
+    "section": "Recommendations for emergency relief facilities",
+    "text": "Recommendations for emergency relief facilities\nIn addition, we identified areas that were turned into Bare land and Water body after then flood (damaged areas), non-damaged areas and Derna’s healthcare facilities and major roads for recommendations to locate emergency relief facilities.\n\n\n\nFigure 8: Damaged areas after the flood\n\n\nThe healthcare facilities in Derna are outlined in Red in the above map. Upon closer inspection, the largest healthcare facility seems to have suffered substantial damage. The northernmost healthcare facility (near the shore) also seems to have suffered significant damage. In light of this damage and the flood, there might need to be temporary healthcare facilities set up. Our group recommends setting up temporary healthcare facilities in non-damaged built-up areas as there may not be enough time and resources to set up new facilities due to the urgency of treating injuries. Looking more closely at the map, we can see that there are non-damaged buildings in the eastern and western part of Derna as can be seen by larger patches of white while the central part of Derna is severely damaged. It can also be seen that the central part of Derna may require the most rebuilding efforts and resources due to the damage it suffered.\nHowever, it must be noted that closer inspection should be done on the ground before selecting this area as temporary healthcare facilities as not all factors determining suitability can be seen from this map.\nOverall, as can be seen by the above map, Derna suffered widespread damage that didn’t spare any area in particular. Due to the damage on road networks, transportation across Derna may be difficult. Therefore, emergency relief facilities such as healthcare facilities and food banks should aim to be distributed across the city and make use of existing built-up areas before evacuation and/or rebuilding efforts are in place."
   }
 ]

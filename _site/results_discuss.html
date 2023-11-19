@@ -62,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="bootstrap.min.css">
 </head>
 
 <body class="nav-fixed">
@@ -139,7 +140,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#other-land-cover-types-to-bare-land" id="toc-other-land-cover-types-to-bare-land" class="nav-link" data-scroll-target="#other-land-cover-types-to-bare-land">Other land cover types to Bare Land</a></li>
   <li><a href="#other-land-cover-types-to-water-body" id="toc-other-land-cover-types-to-water-body" class="nav-link" data-scroll-target="#other-land-cover-types-to-water-body">Other land cover types to Water body</a></li>
   </ul></li>
-  <li><a href="#recommendations" id="toc-recommendations" class="nav-link" data-scroll-target="#recommendations">Recommendations</a></li>
+  <li><a href="#recommendations" id="toc-recommendations" class="nav-link" data-scroll-target="#recommendations">Recommendations</a>
+  <ul class="collapse">
+  <li><a href="#general-recommendations" id="toc-general-recommendations" class="nav-link" data-scroll-target="#general-recommendations">General Recommendations</a></li>
+  <li><a href="#recommendations-for-emergency-relief-facilities" id="toc-recommendations-for-emergency-relief-facilities" class="nav-link" data-scroll-target="#recommendations-for-emergency-relief-facilities">Recommendations for emergency relief facilities</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -170,13 +175,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/Land_cover_classification_MD_Pre.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Classification of pre flood land cover using Minimum Distance</figcaption>
+<figcaption class="figure-caption">Figure 1: Classification of pre flood land cover using Minimum Distance</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/Land_cover_classification_MD_Post.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Classification of post flood land cover using Minimum Distance</figcaption>
+<figcaption class="figure-caption">Figure 2: Classification of post flood land cover using Minimum Distance</figcaption>
 </figure>
 </div>
 </section>
@@ -185,13 +190,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/Land_cover_classification_RF_Pre.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Classification of pre flood land cover using Random Forest</figcaption>
+<figcaption class="figure-caption">Figure 3: Classification of pre flood land cover using Random Forest</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/Land_cover_classification_RF_Post.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Classification of post flood land cover using Random Forest</figcaption>
+<figcaption class="figure-caption">Figure 4: Classification of post flood land cover using Random Forest</figcaption>
 </figure>
 </div>
 </section>
@@ -202,10 +207,63 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/evaluation_table.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Evaluation Table</figcaption>
+<figcaption class="figure-caption">Figure 5: Evaluation Table</figcaption>
 </figure>
 </div>
 <p>We also looked into the finer details of the per-class accuracy using the Producer and User accuracy metrics and noted that the differences in producer and user accuracy was quite different among classes. This may be a result of spectral similarities between some classes, resulting in misclassification between the classes. Even after trying to vary and increase the training input ROIs for the classes, producer and user accuracy still remained low for some classes. This is a limitation of our classification that might result in an inaccurate classification and change detection map.&nbsp;</p>
+<div id="carouselExampleIndicators" class="carousel slide">
+<div class="carousel-inner">
+  
+    <div class="carousel-item active">
+    <div class="card">
+      <img src="img/evaluation_MD_pre.jpg" class="d-block w-100" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title anchored" data-anchor-id="accuracy-of-classifications">Minimum Distance Preflood results</h5>
+      </div>
+    </div>
+    </div>
+    
+    <div class="carousel-item">
+    <div class="card">
+      <img src="img/evaluation_MD_post.png" class="d-block w-100" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title anchored">Minimum Distance Postflood results</h5>
+      </div>
+    </div>
+    </div>
+    
+    <div class="carousel-item">
+    <div class="card">
+      <img src="img/evaluation_RF_pre.jpg" class="d-block w-100" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title anchored">Random Forest Preflood results</h5>
+      </div>
+    </div>
+    </div>
+    
+    <div class="carousel-item">
+    <div class="card">
+      <img src="img/evaluation_RF_post.png" class="d-block w-100" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title anchored">Random Forest Postflood results</h5>
+      </div>
+    </div>
+    </div>
+    
+</div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+</div>
+<hr>
 <p>Since the accuracy and kappa hat classification of Minimum Distance is better than Random Forest, the results of classification from the Minimum Distance is used for analysis of change in land cover in the subsequent sections.</p>
 </section>
 <section id="change-in-land-cover-classification" class="level1">
@@ -215,7 +273,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/land_cover_change_bare_land.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Land cover change to Bare land</figcaption>
+<figcaption class="figure-caption">Figure 6: Land cover change to Bare land</figcaption>
 </figure>
 </div>
 <p>Observations: The map above shows that for the land in closer proximity to the dam, there are generally more changes from other land types to bare land. It also appears that there was more damage to Built-up areas to the East of Wadi Derna, indicating that the East part of Derna may be more prone to flood damage.</p>
@@ -225,7 +283,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/land_cover_change_water_body.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Land cover change to Water body</figcaption>
+<figcaption class="figure-caption">Figure 7: Land cover change to Water body</figcaption>
 </figure>
 </div>
 <p>Observations: The map above shows that the flooded areas as of 13 September (one day after the flood) are near the mouth of Wadi Derna where the river met the ocean. It shows that the flood had subsided in most areas, though some previously vegetated areas remain inundated. This may be because vegetated areas contained higher amounts of moisture before the flood, making them unable to absorb all the flood water that inundated that area. Other areas, however, were likely drier and thus were able to absorb flood waters.</p>
@@ -233,17 +291,22 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="recommendations" class="level1">
 <h1>Recommendations</h1>
+<section id="general-recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="general-recommendations">General Recommendations</h2>
 <p>Given the observations above on the land cover change, we would like to provide the following recommendations to avoid disastrous impact of floods in the future:</p>
 <ul>
 <li><p>Avoid building settlements and buildings near the Wadi Derna and areas that were heavily impacted by this flood (flooded areas and areas with flood trace)</p></li>
 <li><p>Rebuild the dams using an asphalt-concrete core</p></li>
 <li><p>Build flood walls along Wadi Derna</p></li>
 </ul>
+</section>
+<section id="recommendations-for-emergency-relief-facilities" class="level2">
+<h2 class="anchored" data-anchor-id="recommendations-for-emergency-relief-facilities">Recommendations for emergency relief facilities</h2>
 <p>In addition, we identified areas that were turned into Bare land and Water body after then flood (damaged areas), non-damaged areas and Derna’s healthcare facilities and major roads for recommendations to locate emergency relief facilities.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/land_cover_change_damaged_areas.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Damaged areas after the flood</figcaption>
+<figcaption class="figure-caption">Figure 8: Damaged areas after the flood</figcaption>
 </figure>
 </div>
 <p>The healthcare facilities in Derna are outlined in Red in the above map. Upon closer inspection, the largest healthcare facility seems to have suffered substantial damage. The northernmost healthcare facility (near the shore) also seems to have suffered significant damage. In light of this damage and the flood, there might need to be temporary healthcare facilities set up. Our group recommends setting up temporary healthcare facilities in non-damaged built-up areas as there may not be enough time and resources to set up new facilities due to the urgency of treating injuries. Looking more closely at the map, we can see that there are non-damaged buildings in the eastern and western part of Derna as can be seen by larger patches of white while the central part of Derna is severely damaged. It can also be seen that the central part of Derna may require the most rebuilding efforts and resources due to the damage it suffered.</p>
@@ -251,6 +314,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Overall, as can be seen by the above map, Derna suffered widespread damage that didn’t spare any area in particular. Due to the damage on road networks, transportation across Derna may be difficult. Therefore, emergency relief facilities such as healthcare facilities and food banks should aim to be distributed across the city and make use of existing built-up areas before evacuation and/or rebuilding efforts are in place.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
