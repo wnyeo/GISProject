@@ -6,4 +6,52 @@ Hello, we are Group 9, welcome to our GIS project website!
 
 As part of our project for SMT201: Geographical Information Systems for Urban Planning, our group explored the potential use of GIS and remote sensing technologies in understanding the impact and land use/ land cover change during the 2023 Libya Floods in Derna City.
 
+# Motivation of project
+
+Storm Daniel in the Mediterranean this year (2023) has caused significant damage in Derna, Libya, leading to the collapse of two dams and subsequent flooding and displacement of approximately 40,000 people. Geospatial Analysis can aid in planning decisions in the recovery process. In particular, satellite data can be used for land use/ land cover change detection which is useful for analysing the impact of the flood on different areas and selecting suitable sites for emergency response facilities and to inform recovery and rebuilding efforts.
+
+# Objectives
+
+The objectives of the project is therefore to:
+
+-   Investigate the changes in land cover after the flooding of Derna City in Libya on 10 September 2023, due to Storm Daniel and the collapse of the dam.
+
+-   Analyse damage caused by the flood
+
+# Methodology
+
+The key methodologies of the project include:
+
+-   Data preparation and exploration
+
+    -   Data sourced from
+
+        -   [Maxar\'s Open Data Program](https://www.maxar.com/open-data/libya-floods-0923)
+
+        -   [COPERNICUS Emergency Management Service - Mapping](https://rapidmapping.emergency.copernicus.eu/EMSR696/download)
+
+        -   [Libya Health Facilities (OpenStreetMap Export) - Humanitarian Data Exchange (humdata.org)](https://data.humdata.org/dataset/hotosm_lby_health_facilities)
+
+-   Land cover classification with statistical and machine learning algorithms
+
+    -   Minimum Distance
+
+    -   Random Forest
+
+-   Land cover change analysis
+
+In particular, the Semi-Automatic Classification Plugin (SCP) in QGIS will be used for this project, in land cover classification and land cover change analysis.
+
+# Key Findings
+
+In land cover classification, the Minimum Distance algorithm performed better than Random Forest algorithm. Hence, classifications from the Minimum Distance algorithm is used in subsequent analysis of land cover change.
+
+The land cover change analysis uncovered the following:
+
+-   Land in closer proximity Wadi Derna and the mouth of Wadi Derna have generally more changes from other land types to bare land.
+
+-   Flooded areas as of 13 September (one day after the flood) are near the mouth of Wadi Derna where the river met the ocean.
+
+-   Largest healthcare facility have suffered substantial damage.
+
 Please explore this website for more details and findings about this project!
